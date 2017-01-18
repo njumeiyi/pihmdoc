@@ -404,7 +404,8 @@ typedef struct control_data_structure
 	int IsD;        /* File boolean, Choose 1 if your want to print interception depth */
 	int usD;        /* File boolean, Choose 1 if your want to print unsaturated depth */
 	int et[3];      /* File boolean, Choose 1 if your want to print individual evapo-transpiration components */
-	int rivFlx[10];	/* File boolean, Choose 1 if your want to print river/river bed fluxes */
+	int rivFlx[11];	/* File boolean, Choose 1 if your want to print river/river bed fluxes //Yi bugfix*/
+	//int rivFlx[10];	/* File boolean, Choose 1 if your want to print river/river bed fluxes */
   
   	int gwDInt;	/* Time interval to output average val of variables */
 	int surfDInt;
