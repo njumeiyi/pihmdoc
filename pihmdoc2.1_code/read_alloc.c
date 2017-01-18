@@ -610,7 +610,8 @@ void read_alloc(char *filename, Model_Data DS, Control_Data *CS)
   	fscanf(para_file, "%d %d %d %d", &(CS->gwD), &(CS->surfD), &(CS->snowD), &(CS->rivStg));
   	fscanf(para_file, "%d %d %d", &(CS->Rech), &(CS->IsD), &(CS->usD));
 	fscanf(para_file, "%d %d %d", &(CS->et[0]), &(CS->et[1]), &(CS->et[2]));
-	for(i=0;i<10;i++)
+	//for(i=0;i<10;i++)
+	for(i=0;i<=10;i++) //Yi bugfix
 		{
 		fscanf(para_file, "%d", &(CS->rivFlx[i]));
 		}

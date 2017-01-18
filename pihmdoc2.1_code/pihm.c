@@ -188,22 +188,22 @@ int main(int argc, char *argv[])
         Ofile[27]=fopen(strcat(ofn[27], ".RBsol"),"w");
 
 
-	ofn[28] = (char *)malloc((strlen(filename)+6)*sizeof(char));//??BHATT +3
-        strcpy(ofn[28], filename);
-        Ofile[28]=fopen(strcat(ofn[28], ".GWage"),"w");
-	ofn[29] = (char *)malloc((strlen(filename)+6)*sizeof(char));//??BHATT +3
-        strcpy(ofn[29], filename);
-        Ofile[29]=fopen(strcat(ofn[29], ".USage"),"w");
-	ofn[30] = (char *)malloc((strlen(filename)+6)*sizeof(char));//??BHATT +3
-        strcpy(ofn[30], filename);
-        Ofile[30]=fopen(strcat(ofn[30], ".OLage"),"w");
+	//ofn[28] = (char *)malloc((strlen(filename)+6)*sizeof(char));//??BHATT +3
+        //strcpy(ofn[28], filename);
+        //Ofile[28]=fopen(strcat(ofn[28], ".GWage"),"w");
+	//ofn[29] = (char *)malloc((strlen(filename)+6)*sizeof(char));//??BHATT +3
+        //strcpy(ofn[29], filename);
+        //Ofile[29]=fopen(strcat(ofn[29], ".USage"),"w");
+	//ofn[30] = (char *)malloc((strlen(filename)+6)*sizeof(char));//??BHATT +3
+        //strcpy(ofn[30], filename);
+        //Ofile[30]=fopen(strcat(ofn[30], ".OLage"),"w");
 
-	ofn[31] = (char *)malloc((strlen(filename)+6)*sizeof(char));//??BHATT +3
-        strcpy(ofn[31], filename);
-        Ofile[31]=fopen(strcat(ofn[31], ".RSage"),"w");
-	ofn[32] = (char *)malloc((strlen(filename)+6)*sizeof(char));//??BHATT +3
-        strcpy(ofn[32], filename);
-        Ofile[32]=fopen(strcat(ofn[32], ".RBage"),"w");
+	//ofn[31] = (char *)malloc((strlen(filename)+6)*sizeof(char));//??BHATT +3
+        //strcpy(ofn[31], filename);
+        //Ofile[31]=fopen(strcat(ofn[31], ".RSage"),"w");
+	//ofn[32] = (char *)malloc((strlen(filename)+6)*sizeof(char));//??BHATT +3
+        //strcpy(ofn[32], filename);
+        //Ofile[32]=fopen(strcat(ofn[32], ".RBage"),"w");
 
 //Yi 
         omfn[0] = (char *)malloc((strlen(filename)+6)*sizeof(char));
